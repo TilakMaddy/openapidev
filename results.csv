@@ -1,0 +1,7 @@
+line,cause,commands,criticality
+Looking for crc32c_value in crc32c - not found,"the build system is looking for a function called ""crc32c_value"" in the ""crc32c"" library but it was not found.","['sudo apt-get update', 'sudo apt-get install libcrc32c-dev']",0.7
+Looking for snappy_compress in snappy - not found,"the build system is looking for a function called ""snappy_compress"" in the ""snappy"" library but it was not found.","['sudo apt-get update', 'sudo apt-get install libsnappy-dev']",0.7
+Looking for zstd_compress in zstd - not found,"the build system is looking for a function called ""zstd_compress"" in the ""zstd"" library but it was not found.","['sudo apt-get update', 'sudo apt-get install libzstd-dev']",0.7
+Looking for malloc in tcmalloc - not found,"the build system is looking for a function called ""malloc"" in the ""tcmalloc"" library but it was not found.","['sudo apt-get update', 'sudo apt-get install libgoogle-perftools-dev']",0.5
+Looking for fdatasync - not found,"the build system is looking for a function called ""fdatasync"" but it was not found.","['sudo apt-get update', 'sudo apt-get install libbsd-dev']",0.5
+Failed to find LLVM FileCheck,the build system is unable to find the LLVM FileCheck utility.,"['sudo apt-get update', 'sudo apt-get install llvm']",0.7
